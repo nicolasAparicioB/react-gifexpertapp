@@ -1,0 +1,50 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  padding: 60px;
+}
+
+input {
+  width: 50%;
+  height: 30px;
+}
+.items{
+border: 1px solid gray;
+border-radius: 5px;
+overflow: hidden;
+align-content: center;
+margin: 10px;
+padding: 10px;
+}
+.items img{
+ height: 200px;
+ width: 300px;
+}
+.items p{
+  text-align: center;
+  padding: 5px;
+}
+.contenedor-items{
+  display: flex;
+  flex-wrap: wrap;
+}
+.titulo{
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+.titulo span{
+  font-size: 30px;
+  margin-left: 10px;
+  color: yellow;
+}
+body{
+  background-color: violet;
+}
+p{
+  font-weight: bold;
+  font-size: 20px;
+  color: yellow;
+}
